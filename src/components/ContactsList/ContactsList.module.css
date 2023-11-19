@@ -1,0 +1,19 @@
+.list {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.item {
+}
+.btn {
+    margin-left: 20px;
+    border-radius: 6px;
+    border: 1px solid black;
+    background-color: transparent;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color:cadetblue;
+}
